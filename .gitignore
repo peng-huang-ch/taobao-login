@@ -1,4 +1,6 @@
 .DS_Store
 
-chrome-mac
 node_modules
+
+chrome-mac
+!chrome-mac/.gitkeep
