@@ -1,0 +1,21 @@
+{
+  "name": "puppeteer-demos",
+  "puppeteer": {
+    "chromium_revision": "494755"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "hhap",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.0.1",
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
