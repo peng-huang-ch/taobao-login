@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer');
 
 const {
   js1,
-  js2,
+  // js2,
   js3,
   js4,
   js5
@@ -135,10 +135,5 @@ const mouseSlide = async (page) => {
   }
 }
 
-(async () => {
-  try {
-    await startServer()
-  } catch (error) {
-    console.error('error', error)
-  }
-})()
+
+startServer()
